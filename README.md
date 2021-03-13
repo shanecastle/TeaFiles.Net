@@ -55,8 +55,6 @@ TeaFiles are the foundation of the TeaTime product family, the toolset for persi
 
 Related products: 
 * [TeaShell](http://www.discretelogics.com/teashell) - Browse Time Series like Photos
-* [TeaHouse](http://www.discretelogics.com/teahouse) - Browse Large Time Series by Chart
- 
 
 Examples
 --------
@@ -82,3 +80,13 @@ using (var tf = TeaFile<Tick>.OpenRead("acme.tea"))
     return tf.Items.Sum(item => item.Price);
 }
 ```
+
+License
+-------
+
+Released under the MIT license.
+
+Thanks
+------
+
+to contributors @larstbone and @SabotageAndi
